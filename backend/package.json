@@ -1,0 +1,22 @@
+{
+  "name": "usdt-investment-platform",
+  "version": "1.0.0",
+  "description": "USDT Investment Platform with BSC Network Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "web3": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
